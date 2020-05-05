@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductCreateComponent implements OnInit {
 
+  propLegal = "qualquer";
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  fazerAlgo(): void {
+    console.log('fazendo algo!!!')
+  }
 }
