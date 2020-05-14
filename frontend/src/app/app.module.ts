@@ -20,6 +20,9 @@ import { ProductCreateComponent } from './components/product/product-create/prod
 import { RedDirective } from './directives/red.directive';
 import { ForDirective } from './directives/for.directive';
 import { MatButtonModule} from  '@angular/material/button';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+
+
 
 @NgModule({
   declarations: [
@@ -42,6 +45,7 @@ import { MatButtonModule} from  '@angular/material/button';
     MatListModule,
     MatCardModule,
     MatButtonModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
