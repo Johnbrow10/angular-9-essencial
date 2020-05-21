@@ -1,3 +1,24 @@
-<!-- IDBindings conexao com id que e um simples variavel nos ts -->
-<button mat-raised-button (click)="createProduct()" color="primary">Salvar</button>
-<button mat-raised-button (click)="Cancel()" color="danger">Cancelar</button>
+<mat-card>
+    <mat-card-title>Novo Produto</mat-card-title>
+    <form>
+        <mat-form-field>
+            <!-- usadno diretiva nao estrutural ngModel -->
+            <input matInput placeholder="Nome"
+            [(ngModel)]="product.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Preço (R$)"
+            [(ngModel)]="product.price" name="price">
+        </mat-form-field>
+    </form>
+    
+    <!-- IDBindings conexao com id que e um simples variavel nos ts -->
+    <button mat-raised-button (click)="createProduct()" color="primary">Salvar</button>
+    <button mat-raised-button (click)="Cancel()" color="danger">Cancelar</button>
+    
+</mat-card>
+
+
+
+
+
