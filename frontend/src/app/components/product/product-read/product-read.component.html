@@ -17,6 +17,8 @@
     <ng-container matColumnDef="price">
       <th mat-header-cell *matHeaderCellDef >Preço</th>
       <td mat-cell *matCellDef="let row">{{row.price | currency : 'BRL'}}</td>
+      <!-- currency pode carregaro formato de real e so pode usar ponto quando 
+        editar e salvar o valor da moeda kkkkkkk -->
     </ng-container>
     <!-- dentro do ng container vai ser as colounas e os dados dessas colunas-->
     
