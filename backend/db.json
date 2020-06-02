@@ -12,14 +12,13 @@
     },
     {
       "id": 3,
-      "name": "Samsung S20+",
-      "price": 5000.89
+      "name": "Samsung S20+ Ultra",
+      "price": "7000.89"
     },
     {
-      "name": "Geladeira",
-      "price": "1913.89",
+      "name": "lapis preto",
+      "price": "2",
       "id": 4
     }
-    
   ]
 }
