@@ -1,24 +1,39 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Caneta BIC Preta",
-      "price": 5.89
+      "name": "Spotify Premium Individual",
+      "price": "16.90",
+      "id": 5
     },
     {
-      "id": 2,
-      "name": "Notebook Mac Pro",
-      "price": 12000.6
+      "name": "Spotify Premium Duo",
+      "price": "21.90",
+      "id": 6
     },
     {
-      "id": 3,
-      "name": "Samsung S20+ Ultra",
-      "price": "7000.89"
+      "name": "Spotify Premium Família",
+      "price": "26.90",
+      "id": 7
     },
     {
-      "name": "lapis preto",
-      "price": "1.59",
-      "id": 4
+      "name": "Spotify Premium Universitário",
+      "price": "8.50",
+      "id": 8
+    },
+    {
+      "name": "Netflix Básico - 1 tela",
+      "price": "19.90",
+      "id": 9
+    },
+    {
+      "name": "Netflix Padrão - 2 telas",
+      "price": "27.90",
+      "id": 10
+    },
+    {
+      "name": "Netflix Premium - Até 4 telas ",
+      "price": "37.90",
+      "id": 11
     }
   ]
 }

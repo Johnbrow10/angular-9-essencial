@@ -19,7 +19,8 @@ export class ProductUpdateComponent implements OnInit {
 
   ngOnInit(): void {
     // para carregar a pagina o from ja ira vim com os dados gracas a captura do ID
-    const id = this.route.snapshot.paramMap.get('id')
+    // colocando um + na frente a variavel passada converte para number 
+    const id = +this.route.snapshot.paramMap.get('id');
     this.productService.readById(id).subscribe(product => {
       this.product = product;
     });
