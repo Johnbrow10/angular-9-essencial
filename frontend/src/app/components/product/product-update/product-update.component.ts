@@ -29,13 +29,13 @@ export class ProductUpdateComponent implements OnInit {
   //  e depois manda mensagem gracas ao metodo showMessage e logo depois manda de volta para tabela.
   updateProduct(): void {
     this.productService.update(this.product).subscribe(() => {
-      this.productService.ShowMessage('Produto atualizado com sucesso!!')
+      this.productService.showMessage('Produto atualizado com sucesso!!')
       this.router.navigate(['/products']);
     });
 
   }
 
-  Cancel(): void {
+  cancel(): void {
     this.router.navigate(['/products']);
   }
 
